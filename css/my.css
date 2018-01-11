@@ -1,0 +1,211 @@
+/*
+* @Author: Administrator
+* @Date:   2018-01-05 18:06:18
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-01-11 17:50:39
+*/
+@import url("base.css");
+@font-face {
+  font-family: 'iconfont';  /* project id 524942 */
+  src: url('https://at.alicdn.com/t/font_524942_m0d4ezyos2z6ko6r.eot');
+  src: url('https://at.alicdn.com/t/font_524942_m0d4ezyos2z6ko6r.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_524942_m0d4ezyos2z6ko6r.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_524942_m0d4ezyos2z6ko6r.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_524942_m0d4ezyos2z6ko6r.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+i{
+	font-style: normal;
+}
+body{
+	height: auto;
+}
+/* 头部 */
+
+.head{
+	width: 100%;
+	height: 5.84rem;
+	background: #f2f3ee;
+}
+.head_top{
+	width: 100%;
+	height: 3.29rem;
+	overflow: hidden;
+}
+.head_top1{
+	width: 1.81rem;
+	height: 1.81rem;
+	border-radius: 50%;
+	margin: 1rem 0  0 1rem;
+	float: left;
+}
+.head_top1 img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.p1{
+	font-size: 0.36rem;
+	float: left;
+	margin: 1.2rem 0 0 0.43rem;
+}
+.head_top2{
+	width: 2.5rem;
+	height: 0.6rem;
+	background: #fd9a35;
+	border-radius: 0.5rem;
+    margin: 2.02rem 0 0 3.2rem;
+    text-align: center;
+    line-height: 0.6rem;
+}
+.head_top2 a{
+	display: block;
+	font-size: 0.2rem;
+	color: #fff;
+}
+.head_right{
+	width: 3.26rem;
+	height: 2.11rem;
+
+	float: right;
+	margin: -1.5rem 0.2rem;
+}
+.head_right i{
+	font-size: 0.9rem;
+	color: #858681;
+	margin-left: 0.3rem;
+
+}
+.bottom{
+	width: 100%;
+	height: 2.55rem;
+}
+.bottom ul li{
+	float: left;
+}
+.bottom ul li a{
+	display: block;
+	font-size: 0.5rem;
+	color: #2b2c27;
+	margin-top: 0.5rem;
+	margin-left: 1rem;
+}
+.bottom ul li p{
+	font-size: 0.3rem;
+    color: #ff6700;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+/* 头部 */
+/* 订单 */
+.dingd{
+	width: 100%;
+	height: 1.28rem;
+	border-bottom: 0.01rem solid #f5f5f5;
+}
+.dingd_left{
+	width: 3.79rem;
+	height: 1.29rem;
+	font-size: 0.3rem;
+	color: #b3b3b3;
+	line-height: 1.29rem;
+	text-align: center;
+	float: left;
+}
+.dingd_left span{
+    font-size: 0.3rem;
+}
+.dingd_right{
+	width: 2.32rem;
+	height: 100%;
+	float: right;
+}
+.dingd_right p{
+	font-size: 0.3rem;
+	color: #b3b3b3;
+	text-align: center;
+	line-height: 1.29rem;
+}
+/* 订单 */
+/* 功能 */
+.gongn{
+	width: 100%;
+	height: 2.1rem;
+	float: left;
+}
+.gongn li{
+	width: calc(100% / 5);
+	height: 2.1rem;
+	float: left;
+	text-align: center;
+
+}
+.gongn li i{
+	font-size: 0.8rem;
+	color: #4c4c4c;
+	display: block;
+	padding-top: 0.5rem;
+}
+.gongn li span{
+	font-size: 0.28rem;
+	color: #4c4c4c;
+}
+.kuang{
+	width: 100%;
+	height: 0.3rem;
+	background: #f3f4ef;
+	clear:left; 
+
+}
+/* 功能 */
+/* 下面 */
+.xiatou li{
+	box-sizing: border-box;
+	width: 100%;
+	height: 1.32rem;
+	/* background: red; */
+	line-height: 1.32rem;
+	padding-left: 0.44rem;
+
+}
+.xiatou li i{
+	color: #888888;
+}
+.yy1{
+	float: right;
+	padding-right: 0.44rem;
+}
+/* 下面 */
+/* 底部 */
+.dibu{
+    width: 100%;
+    height: 1.33rem;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+	left: 0;
+}
+.dibu li{
+	width: 1.76rem;
+	height: 1.33rem;
+	float: left;
+	margin-left: 0.4rem;
+}
+.dibu li i{
+	display: block;
+    font-size: 0.65rem;
+    color: #515151;
+}
+.dibu li:last-child i{
+	color: #679d3b;
+}
+.dibu li p{
+	font-size: 0.2rem;
+	color: #535353;
+}
+.dibu li:last-child p{
+	color: #679d3b;
+}
+/* 底部 */
